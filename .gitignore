@@ -139,3 +139,5 @@ Desktop.ini
 ######################
 .eslintcache
 /.idea/
+target/classes/META-INF/maven/guru.springframework/mssc-brewery/pom.xml
+/target/classes
