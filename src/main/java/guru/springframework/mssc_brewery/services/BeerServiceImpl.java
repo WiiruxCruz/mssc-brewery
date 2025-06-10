@@ -5,7 +5,9 @@ import java.util.UUID;
 import org.springframework.stereotype.Service;
 
 import guru.springframework.mssc_brewery.web.model.BeerDto;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @Service
 public class BeerServiceImpl implements BeerService {
 
@@ -31,7 +33,11 @@ public class BeerServiceImpl implements BeerService {
 		// TODO impl - would add a real impl to update beer
 		
 	}
-	
-	
 
+	@Override
+	public void deleteById(UUID beerId) {
+		// TODO Auto-generated method stub
+		log.debug("Deleting a beer...");
+	}
+	
 }

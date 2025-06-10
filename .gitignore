@@ -141,3 +141,6 @@ Desktop.ini
 /.idea/
 target/classes/META-INF/maven/guru.springframework/mssc-brewery/pom.xml
 /target/classes
+target/classes/META-INF/maven/guru.springframework/mssc-brewery/pom.properties
+target/classes/META-INF/maven/guru.springframework/mssc-brewery/pom.xml
+/target
